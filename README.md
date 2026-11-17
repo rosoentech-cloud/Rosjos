@@ -1,53 +1,45 @@
 # Rosjos Tutoring Website
 
-A multi-page, SEO-ready tutoring website that you can host for free on GitHub Pages.
+Live address: https://rosjos.rosoen.com
 
-## What's included
+## What's in this folder
 
 - `index.html`: home page
 - `services/index.html`: services overview
-- `services/high-school/`, `services/college/`, `services/test-prep/`, `services/writing-feedback/`: one page per service
+- `services/high-school/`, `services/college/`, `services/test-prep/`, `services/writing-feedback/`: service pages
 - `404.html`: shown when a page can't be found
-- `sitemap.xml` and `robots.txt`: help search engines find and index your pages
+- `sitemap.xml` and `robots.txt`: help search engines find and index the pages
+- `CNAME`: tells GitHub Pages to serve the site at rosjos.rosoen.com
 - `assets/styles.css`: the design
 - `assets/site.js`: your contact details (the SITE block at the top) and page behavior
-- `assets/favicon.svg`, `assets/logo.png`, `assets/og-image.png`: brand images for browser tabs, search results, and link previews
+- `assets/favicon.svg`, `assets/logo.png`, `assets/og-image.png`: brand images
 
-Every page includes a unique title and meta description, a canonical link, Open Graph and Twitter preview tags, JSON-LD structured data (organization, service, breadcrumb, and FAQ markup), breadcrumb navigation, and one main heading per page.
+## Upload to your repository
 
-## Before you publish
+1. Open your repository on GitHub.
+2. Click **Add file**, then **Upload files**.
+3. Extract the zip file, then drag the contents of the folder into the upload area. Upload the contents, not the folder itself, so `index.html` and `CNAME` sit at the top level of the repository.
+4. Replace existing files if GitHub asks, then click **Commit changes**.
+5. Wait about a minute, then open **Settings**, then **Pages** to confirm the custom domain and HTTPS status.
 
-1. **Set your real domain.** Every page, `sitemap.xml`, and `robots.txt` currently use `https://www.example.com` as a placeholder. Use find and replace across the whole folder to change it to your address, such as `https://yourname.github.io/tutoring-site` or `https://www.yourdomain.com`. Use the exact final address with no trailing slash. Search engines rely on these addresses, so this step matters for SEO.
-2. **Update your contact details** in the SITE block at the top of `assets/site.js`. Leave `email` empty to hide the email buttons until you have an address.
-3. **Update the phone number in the structured data** if you change it. Search for the old number, which appears as `"telephone"` in the JSON-LD blocks of the HTML files, and replace it.
-4. **Review the page text** and replace anything that doesn't describe your business exactly.
-5. **Optional:** once you have social profiles, add their links to a `sameAs` list in the organization data on `index.html`.
+## Update contact details
 
-## Publish on GitHub Pages
+Open `assets/site.js` and edit the SITE block at the top:
 
-1. Create a new repository on github.com and set it to Public.
-2. Upload every file and folder, including `services/` and `assets/`. You can drag the whole folder into GitHub's upload page, or use Git from inside the `tutoring-site` folder:
+- `whatsappNumber`: your WhatsApp number with the country code and no + sign or spaces
+- `email`: leave empty to hide the email buttons until you have an address
+- `phone`: your phone number as you want it displayed
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial tutoring website"
-   git branch -M main
-   git remote add origin https://github.com/your-username/tutoring-site.git
-   git push -u origin main
-   ```
-
-3. Go to **Settings**, then **Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose **main** and **/ (root)**, and click **Save**.
-4. When the site is live, turn on **Enforce HTTPS** on the same page.
+If you change the phone number, also update the `"telephone"` value in the structured data of the HTML files.
 
 ## Set up search engines
 
-1. Open Google Search Console (search.google.com/search-console), add your site, and verify ownership.
-2. Submit your sitemap: `https://your-domain/sitemap.xml`.
+1. In Google Search Console (search.google.com/search-console), add the property `https://rosjos.rosoen.com` and verify it.
+2. Submit the sitemap: `https://rosjos.rosoen.com/sitemap.xml`.
 3. Check the structured data with Google's Rich Results Test (search.google.com/test/rich-results).
-4. Check speed and mobile usability with PageSpeed Insights (pagespeed.web.dev).
-5. Share a link in WhatsApp or on social media to confirm the preview image and title appear correctly.
+4. Check speed with PageSpeed Insights (pagespeed.web.dev).
+5. Share a link on WhatsApp to confirm the preview image and title appear.
 
 ## Adding or changing a service page
 
-Copy an existing folder in `services/`, then update the title, meta description, canonical link, Open Graph tags, headings, and FAQs. Then add the new page to `sitemap.xml`, to the Services links in the header and footer of every page, and to the service cards on `index.html` and `services/index.html`.
+Copy an existing folder in `services/`, then update the title, meta description, canonical link, Open Graph tags, headings, and FAQs. Add the new page to `sitemap.xml`, to the Services links in the header and footer of every page, and to the service cards on `index.html` and `services/index.html`.

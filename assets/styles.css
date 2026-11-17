@@ -1052,3 +1052,28 @@
     height: min(560px, calc(100vh - 110px));
   }
 }
+
+/* ---------- Contact pills (Contact section) ---------- */
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.97rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.contact-pill:hover { background: rgba(255, 255, 255, 0.2); }
+.contact-pill svg { width: 18px; height: 18px; }

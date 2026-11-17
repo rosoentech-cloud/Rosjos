@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Rosjos Blog</title>
+  <link>https://rosjos.rosoen.com/blog/</link>
+  <description>Study guides and tips from the Rosjos team.</description>
+  <language>en-us</language>
+  <atom:link href="https://rosjos.rosoen.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>What to Expect in Your First Online Tutoring Session</title>
+    <link>https://rosjos.rosoen.com/blog/what-to-expect-first-online-tutoring-session/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/what-to-expect-first-online-tutoring-session/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>A first session can feel uncertain. Here is what usually happens, what to bring, and how to make the most of your time.</description>
+  </item>
+  <item>
+    <title>How to Study for a Test in One Week</title>
+    <link>https://rosjos.rosoen.com/blog/how-to-study-for-a-test-in-one-week/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/how-to-study-for-a-test-in-one-week/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Limited time doesn&#x27;t have to mean panic. A focused seven-day plan puts your effort where it will help most.</description>
+  </item>
+  <item>
+    <title>Active Recall: Why Testing Yourself Beats Rereading</title>
+    <link>https://rosjos.rosoen.com/blog/active-recall-testing-yourself-beats-rereading/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/active-recall-testing-yourself-beats-rereading/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Rereading feels productive, yet testing yourself is one of the most reliable ways to learn. Here is why, and how to start.</description>
+  </item>
+  <item>
+    <title>How to Read a Syllabus and Plan Your Semester</title>
+    <link>https://rosjos.rosoen.com/blog/how-to-read-a-syllabus-and-plan-your-semester/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/how-to-read-a-syllabus-and-plan-your-semester/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Your syllabus holds the dates, grading rules, and expectations for the whole term. Here is how to turn it into a plan.</description>
+  </item>
+  <item>
+    <title>How to Write a Strong Thesis Statement</title>
+    <link>https://rosjos.rosoen.com/blog/how-to-write-a-strong-thesis-statement/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/how-to-write-a-strong-thesis-statement/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>A strong thesis gives your essay a clear direction. Here is how to write one that your body paragraphs can support.</description>
+  </item>
+  <item>
+    <title>APA In-Text Citations: A Practical Guide</title>
+    <link>https://rosjos.rosoen.com/blog/apa-in-text-citations-practical-guide/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/apa-in-text-citations-practical-guide/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>In-text citations connect your claims to your sources. Here is how to format them in APA style, with examples you can adapt.</description>
+  </item>
+  <item>
+    <title>Algebra Homework Help That Builds Real Skills</title>
+    <link>https://rosjos.rosoen.com/blog/algebra-homework-help-that-builds-skills/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/algebra-homework-help-that-builds-skills/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Homework help should make you better at algebra, not just finish the set. Here is how to get that benefit without copying answers.</description>
+  </item>
+  <item>
+    <title>A Four-Week Study Plan for Standardized Tests</title>
+    <link>https://rosjos.rosoen.com/blog/four-week-study-plan-standardized-tests/</link>
+    <guid isPermaLink="true">https://rosjos.rosoen.com/blog/four-week-study-plan-standardized-tests/</guid>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Four weeks is enough time for steady, measurable progress. This plan moves from diagnosis to full practice in a clear sequence.</description>
+  </item>
+</channel>
+</rss>
